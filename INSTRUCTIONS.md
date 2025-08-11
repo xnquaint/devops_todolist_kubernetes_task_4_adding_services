@@ -48,11 +48,11 @@ curl todoapp-service.todoapp.svc.cluster.local
 ### 1. Configure port-forwarding
 
 ```bash
-kubectl port-forward service/todoapp-service 8081:80 -n todoapp
+kubectl port-forward service/todoapp-service 8080:80 -n todoapp
 ```
 
 ### 2. Open browser at [http://localhost:8080](http://localhost:8080) address
 
 ## Testing NodePort
 
-### 2. Open browser at [http://localhost:30080](http://localhost:30080) address
+### 1. Open browser at [http://localhost:30080](http://localhost:30080) address
